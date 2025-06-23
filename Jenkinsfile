@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'rancher'
         CLUSTER_NAME = 'hw33'
         LOCATION = 'us-east-1a'
-        DOCKERHUB_PASS = 'Docker@12'
+        DOCKERHUB_PASS = '******'
     }
     stages {
         stage("Checkout code") {
